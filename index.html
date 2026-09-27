@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FURNIQA | Furniture for Better Living</title>
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- 1. TOP OFFER BAR -->
+    <div class="top-offer-bar">
+        <p>FREE SHIPPING ON ORDERS OVER ₹999 &nbsp;|&nbsp; USE CODE: <strong>WELCOME10</strong></p>
+    </div>
+
+    <!-- 2. MAIN NAVBAR -->
+    <header class="header" id="stickyHeader">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <h1>FURNIQA</h1>
+                <span>Furniture Store</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="shop.html">Rooms</a></li>
+                    <li><a href="shop.html">Best Sellers</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="shop.html">Sale</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn" id="searchToggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <a href="login.html" aria-label="User Account" class="icon-btn"><i class="fa-regular fa-user"></i></a>
+                <a href="shop.html" aria-label="Wishlist" class="icon-btn"><i class="fa-regular fa-heart"></i></a>
+                <a href="cart.html" aria-label="Cart" class="icon-btn cart-icon-badge">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button aria-label="Menu" class="hamburger" id="hamburgerBtn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Expandable Search Bar Overlay -->
+        <div class="search-overlay" id="searchOverlay">
+            <input type="text" placeholder="Search furniture, sofas, lamps..." id="searchInput">
+            <button id="closeSearch"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 3. HERO SECTION -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <span class="hero-subtitle">DESIGNED FOR COMFORT.</span>
+                <h1 class="hero-title">Beautiful Furniture.<br>For Better Living.</h1>
+                <p class="hero-description">Discover timeless pieces crafted with quality materials, organic textures, and modern minimalist design.</p>
+                <div class="hero-buttons">
+                    <a href="shop.html" class="btn btn-primary">SHOP NOW</a>
+                    <a href="shop.html" class="btn btn-outline">EXPLORE COLLECTION</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" alt="Modern minimalist living room" class="hero-img">
+            </div>
+        </section>
+
+        <!-- 4. BENEFITS SECTION -->
+        <section class="benefits-section">
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fa-solid fa-truck-fast"></i>
+                    <div>
+                        <h4>FREE SHIPPING</h4>
+                        <p>On orders over ₹999</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <div>
+                        <h4>SECURE PAYMENT</h4>
+                        <p>100% Secure Checkout</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-award"></i>
+                    <div>
+                        <h4>QUALITY GUARANTEE</h4>
+                        <p>Premium craftsmanship</p>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <div>
+                        <h4>EASY RETURNS</h4>
+                        <p>30-Day hassle-free returns</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SHOP BY CATEGORY -->
+        <section class="categories-section">
+            <div class="section-header">
+                <h2>SHOP BY CATEGORY</h2>
+            </div>
+            <div class="categories-grid">
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80" alt="Living Room">
+                    </div>
+                    <span>Living Room</span>
+                </a>
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1617806118233-18e1c0c531d3?auto=format&fit=crop&w=400&q=80" alt="Dining Room">
+                    </div>
+                    <span>Dining Room</span>
+                </a>
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=400&q=80" alt="Bedroom">
+                    </div>
+                    <span>Bedroom</span>
+                </a>
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80" alt="Office">
+                    </div>
+                    <span>Office</span>
+                </a>
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=400&q=80" alt="Storage">
+                    </div>
+                    <span>Storage</span>
+                </a>
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=400&q=80" alt="Lighting">
+                    </div>
+                    <span>Lighting</span>
+                </a>
+                <a href="shop.html" class="category-card">
+                    <div class="category-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=400&q=80" alt="Outdoor">
+                    </div>
+                    <span>Outdoor</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- 6. BEST SELLERS -->
+        <section class="products-section">
+            <div class="section-header flex-header">
+                <h2>BEST SELLERS</h2>
+                <a href="shop.html" class="view-all-link">VIEW ALL <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="product-grid" id="productGrid">
+                <!-- Product 1 -->
+                <div class="product-card" data-id="1" data-name="Luna Fabric Sofa" data-price="24999" data-img="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80" alt="Luna Fabric Sofa">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Living Room</span>
+                        <h3 class="product-title"><a href="product.html">Luna Fabric Sofa</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            <span>(35)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹24,999</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card" data-id="2" data-name="Nordic Wood Dining Table" data-price="18999" data-img="https://images.unsplash.com/photo-1617806118233-18e1c0c531d3?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1617806118233-18e1c0c531d3?auto=format&fit=crop&w=600&q=80" alt="Nordic Wood Dining Table">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Dining Room</span>
+                        <h3 class="product-title"><a href="product.html">Nordic Wood Dining Table</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(24)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹18,999</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card" data-id="3" data-name="Haven Lounge Chair" data-price="12499" data-img="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80" alt="Haven Lounge Chair">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Living Room</span>
+                        <h3 class="product-title"><a href="product.html">Haven Lounge Chair</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            <span>(18)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹12,499</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card" data-id="4" data-name="Oakline 6 Drawer Dresser" data-price="21500" data-img="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80" alt="Oakline 6 Drawer Dresser">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Storage</span>
+                        <h3 class="product-title"><a href="product.html">Oakline 6 Drawer Dresser</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                            <span>(12)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹21,500</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card" data-id="5" data-name="Aura Floor Lamp" data-price="6999" data-img="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80" alt="Aura Floor Lamp">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Lighting</span>
+                        <h3 class="product-title"><a href="product.html">Aura Floor Lamp</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹6,999</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card" data-id="6" data-name="Eden Coffee Table" data-price="8999" data-img="https://images.unsplash.com/photo-1533779283484-8ab4940aa78f?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1533779283484-8ab4940aa78f?auto=format&fit=crop&w=600&q=80" alt="Eden Coffee Table">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Living Room</span>
+                        <h3 class="product-title"><a href="product.html">Eden Coffee Table</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(29)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹8,999</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 7 -->
+                <div class="product-card" data-id="7" data-name="Modern Accent Chair" data-price="14200" data-img="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80" alt="Modern Accent Chair">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Living Room</span>
+                        <h3 class="product-title"><a href="product.html">Modern Accent Chair</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                            <span>(15)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹14,200</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+                <div class="product-card" data-id="8" data-name="Minimal Bedside Table" data-price="4999" data-img="https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=600&q=80" alt="Minimal Bedside Table">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Bedroom</span>
+                        <h3 class="product-title"><a href="product.html">Minimal Bedside Table</a></h3>
+                        <div class="product-rating">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            <span>(21)</span>
+                        </div>
+                        <div class="product-footer">
+                            <span class="product-price">₹4,999</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. PROMOTIONAL BANNERS -->
+        <section class="promo-banners-section">
+            <div class="promo-banner banner-1">
+                <div class="banner-content">
+                    <span class="banner-tag">SUMMER SALE</span>
+                    <h3>20% OFF SITEWIDE</h3>
+                    <p>Limited time offer on all handmade wooden collections.</p>
+                    <a href="shop.html" class="btn btn-dark">SHOP THE SALE</a>
+                </div>
+            </div>
+            <div class="promo-banner banner-2">
+                <div class="banner-content">
+                    <span class="banner-tag">NEW COLLECTION</span>
+                    <h3>Modern Living Redefined.</h3>
+                    <p>Explore the latest arrivals designed by Scandinavian artists.</p>
+                    <a href="shop.html" class="btn btn-dark">DISCOVER NOW</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. NEW COLLECTION FEATURE -->
+        <section class="new-collection-feature">
+            <div class="feature-container">
+                <div class="feature-text">
+                    <span class="sub-title">SUSTAINABLE CRAFTSMANSHIP</span>
+                    <h2>Built For Generations to Come.</h2>
+                    <p>We source 100% solid ethically harvested oak, walnut, and teak woods combined with organic cottons and non-toxic finishes to bring health and elegance into your living space.</p>
+                    <a href="about.html" class="btn btn-primary">OUR SUSTAINABILITY STORY</a>
+                </div>
+                <div class="feature-image">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=80" alt="Sustainable furniture interior">
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. NEWSLETTER SECTION -->
+        <section class="newsletter-section">
+            <div class="newsletter-box">
+                <h2>Stay Inspired.</h2>
+                <p>Get design inspiration, new arrivals and exclusive offers directly to your inbox.</p>
+                <form id="newsletterForm" class="newsletter-form">
+                    <input type="email" id="newsletterEmail" placeholder="Enter your email address..." required>
+                    <button type="submit" class="btn btn-dark">SUBSCRIBE</button>
+                </form>
+                <div id="newsletterMessage" class="form-message"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 10. FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <h2>FURNIQA</h2>
+                <p>Furniture Store</p>
+                <p class="brand-desc">Modern furniture for every space, crafted with passion and enduring quality.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>SHOP</h3>
+                <ul>
+                    <li><a href="shop.html">Living Room</a></li>
+                    <li><a href="shop.html">Bedroom</a></li>
+                    <li><a href="shop.html">Dining</a></li>
+                    <li><a href="shop.html">Office</a></li>
+                    <li><a href="shop.html">Lighting</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>CUSTOMER CARE</h3>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FURNIQA Furniture Store. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification container -->
+    <div id="toast" class="toast">Product added to cart successfully!</div>
+
+    <!-- JavaScript Link -->
+    <script src="js/main.js"></script>
+</body>
+</html>

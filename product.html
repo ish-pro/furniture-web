@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna Fabric Sofa | FURNIQA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <!-- TOP OFFER BAR -->
+    <div class="top-offer-bar">
+        <p>FREE SHIPPING ON ORDERS OVER ₹999 &nbsp;|&nbsp; USE CODE: <strong>WELCOME10</strong></p>
+    </div>
+
+    <!-- MAIN NAVBAR -->
+    <header class="header" id="stickyHeader">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <h1>FURNIQA</h1>
+                <span>Furniture Store</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="shop.html">Rooms</a></li>
+                    <li><a href="shop.html">Best Sellers</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="shop.html">Sale</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn" id="searchToggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <a href="login.html" aria-label="User Account" class="icon-btn"><i class="fa-regular fa-user"></i></a>
+                <a href="shop.html" aria-label="Wishlist" class="icon-btn"><i class="fa-regular fa-heart"></i></a>
+                <a href="cart.html" aria-label="Cart" class="icon-btn cart-icon-badge">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button aria-label="Menu" class="hamburger" id="hamburgerBtn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        <div class="search-overlay" id="searchOverlay">
+            <input type="text" placeholder="Search furniture, sofas, lamps..." id="searchInput">
+            <button id="closeSearch"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </header>
+
+    <main class="product-main">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> / <a href="shop.html">Living Room</a> / <span>Luna Fabric Sofa</span>
+        </div>
+
+        <div class="product-detail-container">
+            <!-- Left: Image Gallery -->
+            <div class="product-gallery">
+                <div class="main-img-box">
+                    <img id="mainProductImg" src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80" alt="Luna Fabric Sofa">
+                </div>
+                <div class="thumbnail-row">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=300&q=80" alt="Thumb 1" class="thumb active">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=300&q=80" alt="Thumb 2" class="thumb">
+                    <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=300&q=80" alt="Thumb 3" class="thumb">
+                </div>
+            </div>
+
+            <!-- Right: Product Info & Actions -->
+            <div class="product-info-side">
+                <span class="product-category">Living Room Collection</span>
+                <h1>Luna Fabric Sofa</h1>
+                <div class="product-rating">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <span>35 Reviews</span>
+                </div>
+                <div class="product-price-tag">₹24,999</div>
+                <p class="product-short-desc">Expertly crafted with durable kiln-dried hardwood framing, high-resilience foam cushioning, and premium woven textured fabric for supreme comfort and enduring style.</p>
+
+                <!-- Color Selector -->
+                <div class="option-group">
+                    <label>Color: <span id="selectedColorName">Warm Beige</span></label>
+                    <div class="color-swatches">
+                        <button class="swatch active" style="background-color: #d2c2b0;" data-color="Warm Beige"></button>
+                        <button class="swatch" style="background-color: #3f4739;" data-color="Muted Green"></button>
+                        <button class="swatch" style="background-color: #2f2a25;" data-color="Dark Charcoal"></button>
+                    </div>
+                </div>
+
+                <!-- Quantity & Add to Cart -->
+                <div class="purchase-actions">
+                    <div class="quantity-selector">
+                        <button id="decreaseQty">-</button>
+                        <input type="text" id="qtyInput" value="1" readonly>
+                        <button id="increaseQty">+</button>
+                    </div>
+                    <button class="btn btn-primary" id="detailAddToCart">ADD TO CART</button>
+                    <button class="btn btn-outline" id="detailBuyNow">BUY NOW</button>
+                </div>
+
+                <!-- Extra Info Accordions/Tabs -->
+                <div class="product-meta-details">
+                    <div class="meta-item">
+                        <h4><i class="fa-solid fa-box"></i> Product Details</h4>
+                        <p>Dimensions: 210cm W x 90cm D x 85cm H. Weight: 48kg. Assembly required (legs only).</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4><i class="fa-solid fa-truck"></i> Shipping Information</h4>
+                        <p>Standard delivery within 5-7 business days. White glove delivery & room placement available at checkout.</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4><i class="fa-solid fa-rotate-left"></i> Return Policy</h4>
+                        <p>Enjoy peace of mind with our 30-day return policy. Items must be in original condition.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Products Section -->
+        <section class="related-section">
+            <div class="section-header">
+                <h2>YOU MAY ALSO LIKE</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card" data-id="3" data-name="Haven Lounge Chair" data-price="12499" data-img="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80" alt="Haven Lounge Chair">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Living Room</span>
+                        <h3 class="product-title"><a href="product.html">Haven Lounge Chair</a></h3>
+                        <div class="product-footer">
+                            <span class="product-price">₹12,499</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-id="6" data-name="Eden Coffee Table" data-price="8999" data-img="https://images.unsplash.com/photo-1533779283484-8ab4940aa78f?auto=format&fit=crop&w=600&q=80">
+                    <div class="product-img-box">
+                        <img src="https://images.unsplash.com/photo-1533779283484-8ab4940aa78f?auto=format&fit=crop&w=600&q=80" alt="Eden Coffee Table">
+                        <button class="wishlist-btn" aria-label="Add to wishlist"><i class="fa-regular fa-heart"></i></button>
+                        <a href="product.html" class="quick-view-overlay">Quick View</a>
+                    </div>
+                    <div class="product-details">
+                        <span class="product-category">Living Room</span>
+                        <h3 class="product-title"><a href="product.html">Eden Coffee Table</a></h3>
+                        <div class="product-footer">
+                            <span class="product-price">₹8,999</span>
+                            <button class="btn-add-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <h2>FURNIQA</h2>
+                <p>Furniture Store</p>
+                <p class="brand-desc">Modern furniture for every space, crafted with passion and enduring quality.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>SHOP</h3>
+                <ul>
+                    <li><a href="shop.html">Living Room</a></li>
+                    <li><a href="shop.html">Bedroom</a></li>
+                    <li><a href="shop.html">Dining</a></li>
+                    <li><a href="shop.html">Office</a></li>
+                    <li><a href="shop.html">Lighting</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>CUSTOMER CARE</h3>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FURNIQA Furniture Store. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast">Product added to cart successfully!</div>
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>

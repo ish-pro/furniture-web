@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | FURNIQA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <div class="top-offer-bar">
+        <p>FREE SHIPPING ON ORDERS OVER ₹999 &nbsp;|&nbsp; USE CODE: <strong>WELCOME10</strong></p>
+    </div>
+
+    <header class="header" id="stickyHeader">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <h1>FURNIQA</h1>
+                <span>Furniture Store</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="shop.html">Rooms</a></li>
+                    <li><a href="shop.html">Best Sellers</a></li>
+                    <li><a href="shop.html">New Arrivals</a></li>
+                    <li><a href="shop.html">Sale</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-icons">
+                <button aria-label="Search" class="icon-btn" id="searchToggle"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <a href="login.html" aria-label="User Account" class="icon-btn"><i class="fa-regular fa-user"></i></a>
+                <a href="shop.html" aria-label="Wishlist" class="icon-btn"><i class="fa-regular fa-heart"></i></a>
+                <a href="cart.html" aria-label="Cart" class="icon-btn cart-icon-badge">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <button aria-label="Menu" class="hamburger" id="hamburgerBtn"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+        <div class="search-overlay" id="searchOverlay">
+            <input type="text" placeholder="Search furniture, sofas, lamps..." id="searchInput">
+            <button id="closeSearch"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </header>
+
+    <main style="max-width: 1400px; margin: 60px auto; padding: 0 40px;">
+        <div style="text-align: center; max-width: 700px; margin: 0 auto 60px auto;">
+            <span style="font-size: 0.75rem; letter-spacing: 3px; text-transform: uppercase; color: var(--text-muted); font-weight: 600; display: block; margin-bottom: 12px;">OUR STORY</span>
+            <h1 style="font-size: 3rem; color: var(--primary-color); margin-bottom: 20px;">Crafting Spaces With Purpose & Soul.</h1>
+            <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.8;">Founded in 2022, FURNIQA was born out of a simple belief: that your home should be your sanctuary. We partner with master artisans to create timeless furniture that honors natural materials and sustainable design.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; margin-bottom: 80px;">
+            <div style="border-radius: 12px; overflow: hidden; height: 460px;">
+                <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=80" alt="About FURNIQA workshop" style="width: 100%; height: 100%; object-fit: cover;">
+            </div>
+            <div style="padding: 20px;">
+                <h2 style="font-size: 2.2rem; color: var(--primary-color); margin-bottom: 20px;">Minimalism Meets Uncompromising Quality.</h2>
+                <p style="color: var(--text-muted); margin-bottom: 20px; line-height: 1.7;">Every sofa, table, and lighting fixture in our collection undergoes rigorous testing to ensure it stands up to everyday family living while maintaining gallery-worthy elegance.</p>
+                <p style="color: var(--text-muted); line-height: 1.7;">We use 100% ethically sourced timbers, organic fabrics, and non-toxic finishes because we believe beauty should never come at the planet's expense.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <h2>FURNIQA</h2>
+                <p>Furniture Store</p>
+                <p class="brand-desc">Modern furniture for every space, crafted with passion and enduring quality.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>SHOP</h3>
+                <ul>
+                    <li><a href="shop.html">Living Room</a></li>
+                    <li><a href="shop.html">Bedroom</a></li>
+                    <li><a href="shop.html">Dining</a></li>
+                    <li><a href="shop.html">Office</a></li>
+                    <li><a href="shop.html">Lighting</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>CUSTOMER CARE</h3>
+                <ul>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Shipping & Delivery</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FURNIQA Furniture Store. All Rights Reserved.</p>
+            <div class="payment-methods">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

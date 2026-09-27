@@ -1,0 +1,85 @@
+/* ==========================================
+   SHOP PAGE SPECIFIC STYLES
+   ========================================== */
+.shop-main {
+    max-width: 1400px;
+    margin: 40px auto 80px auto;
+    padding: 0 40px;
+}
+
+.shop-header-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.breadcrumb {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    color: var(--primary-color);
+}
+
+.shop-header-container h1 {
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+.shop-header-container p {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+}
+
+.shop-toolbar {
+    background-color: var(--white);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.filter-controls {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.filter-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.filter-group select,
+.sort-controls select {
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-color);
+    font-family: inherit;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    outline: none;
+    cursor: pointer;
+}
+
+.filter-group input[type="range"] {
+    accent-color: var(--accent-gold);
+    cursor: pointer;
+}
+
+.sort-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

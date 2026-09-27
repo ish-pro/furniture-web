@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account | FURNIQA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/auth.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <div class="auth-container">
+        <!-- Left Image Panel -->
+        <div class="auth-image-panel" style="background-image: url('https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80');">
+            <div class="auth-quote">
+                <h2>"Furniture for Better Living."</h2>
+                <p>— Join our exclusive design community</p>
+            </div>
+        </div>
+
+        <!-- Right Form Panel -->
+        <div class="auth-form-panel">
+            <div class="auth-form-wrapper">
+                <a href="index.html" class="logo auth-logo">
+                    <h1>FURNIQA</h1>
+                    <span>Furniture Store</span>
+                </a>
+
+                <h2>Create Account</h2>
+                <p class="auth-sub">Sign up to enjoy faster checkout & wishlist saving.</p>
+
+                <form id="signupForm" class="auth-form" novalidate>
+                    <div class="form-group">
+                        <label for="signupName">Full Name</label>
+                        <input type="text" id="signupName" placeholder="Justin Mason">
+                        <span class="error-msg" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signupEmail">Email Address</label>
+                        <input type="email" id="signupEmail" placeholder="name@example.com">
+                        <span class="error-msg" id="signupEmailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signupPassword">Password</label>
+                        <input type="password" id="signupPassword" placeholder="Minimum 6 characters">
+                        <span class="error-msg" id="signupPasswordError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" id="confirmPassword" placeholder="Re-enter password">
+                        <span class="error-msg" id="confirmError"></span>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="remember-me">
+                            <input type="checkbox" id="termsCheckbox"> I agree to the <a href="#" style="text-decoration: underline;">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <span class="error-msg" id="termsError" style="display:block; margin-bottom:15px;"></span>
+
+                    <button type="submit" class="btn btn-primary auth-btn">CREATE ACCOUNT</button>
+                    <div class="form-message" id="signupMsg"></div>
+                </form>
+
+                <p class="auth-switch-text">
+                    Already have an account? <a href="login.html">Login</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
